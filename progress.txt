@@ -1,1 +1,3 @@
+eksctl을 통한 클러스터 생성
 
+eksctl create cluster --name second --version 1.17 --region ap-northeast-2 --nodegroup-name linux-nodes --nodes 2 --nodes-min 1 --nodes-max 2 --ssh-access --ssh-public-key aws-seoul --managed
